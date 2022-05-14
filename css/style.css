@@ -1,0 +1,357 @@
+body 
+{
+    background-color: whitesmoke;
+}
+header
+{
+    background-image: url(../images/banner-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+  
+
+}
+.layer
+{
+    background-color: rgba(0,0,0, 0.8);
+    width: 100%;
+    height: 100%;
+}
+.layer h1 
+{
+    font-size: 80px;
+}
+.layer p::after{
+    content: " |";
+    animation-name: typing;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+   
+}
+@keyframes typing {
+    0%{content: "De| ";}
+    2%{content: "Des|";}
+    4%{content: "Desi|";}
+    6%{content: "Desin|";}
+    8%{content: "Desine|";}
+    13%{content: "Desiner|";}
+    14%{content: "Desine|";}
+    15%{content: "Desin| ";}
+    16%{content: "Desi|";}
+    17%{content: "Des|";}
+    18%{content: "De|";}
+    19%{content: "De|";}
+    20%{content: "D|";}
+    22%{content: "D|";}
+    24%{content: "De| ";}
+    25%{content: "Dev|";}
+    26%{content: "Deve|";}
+    28%{content: "Devel|";}
+    30%{content: "Develo|";}
+    31%{content: "Develop|";}
+    32%{content: "Develope|";}
+    33%{content: "Developer| ";}
+    34%{content: "Develope|";}
+    35%{content: "Develop|";}
+    36%{content: "Develo|";}
+    37%{content: "Deve|";}
+    38%{content: "Dev|";}
+    39%{content: "D|";}
+    40%{content: "F| ";}
+    41%{content: "Fr|";}
+    42%{content: "Fre|";}
+    44%{content: "Frel|";}
+    46%{content: "Frele|";}
+    48%{content: "Frelen|";}
+    50%{content: "Frelenc|";}
+    52%{content: "Frelence|";}
+    54%{content: "Frelencer|";}
+    56%{content: "Frelence|";}
+    58%{content: "Frelenc|";}
+    60%{content: "Frelen|";}
+    62%{content: "Frele|";}
+    64%{content: "Frel|";}
+    66%{content: "Fre|";}
+    68%{content: "Fr|";}
+    70%{content: "P|";}
+    72%{content: "Ph|";}
+    74%{content: "Pho|";}
+    76%{content: "Phot|";}
+    78%{content: "Photo|";}
+    80%{content: "Photog|";}
+    82%{content: "Photogr|";}
+    84%{content: "Photogra|";}
+    86%{content: "Photograp|";}
+    88%{content: "Photograph|";}
+    90%{content: "Photographe|";}
+    91%{content: "Photographer|";}
+    92.5%{content: "Photographe|";}
+    93%{content: "Photograph|";}
+    93.5%{content: "Photograp|";}
+    94%{content: "Photogra|";}
+    94.5%{content: "Photogr|";}
+    95%{content: "Photog|";}
+    96%{content: "Photo|";}
+    97%{content: "Phot|";}
+    98%{content: "Pho|";}
+    99%{content: "Ph|";}
+    100%{content: "P|";}
+  
+    
+
+   
+  
+    
+}
+.layer p 
+{
+    font-size: 50px;
+}
+.fs
+{
+    font-size: 17px;
+}
+.border
+{
+    border:  1px solid gray ;
+    background-color: rgba(15, 193, 238, 0.2);
+    width: 100%;
+}
+.line
+{
+    background-color: #007aff;
+    width: 100px;
+    height: 3px;
+}
+.s-p::after
+{
+    content: "";
+    width: 50px;
+    height: 5px;
+    background-color: #007aff;
+    position: absolute;
+    top: 30px;
+    left: 48%;
+}
+.icon 
+{
+    border:  10px solid #007aff;
+    width:120px;
+    height: 120px;
+    border-radius: 50%;
+  
+}
+.icon:hover
+{
+    background-color: #007aff ; 
+    border-color: lightblue
+} 
+.icon:hover i 
+{
+    color: dimgrey;
+}
+.cntr
+{
+    background-image: url(../images/shutterstock_1171172626.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 50vh;
+
+}
+.layer2
+{
+    background-color:rgba(0, 127, 253, 0.9);
+    width: 100%;
+    height: 50vh;
+    opacity: 0.8;
+}
+.icon2
+{
+    border:  10px solid white;
+    width:80px;
+    height: 80px;
+    border-radius: 50%;
+  
+}
+.item2  h4
+{
+    font-size: 15px !important; 
+    
+}
+.card img 
+{
+    transition: 1s;
+}
+.card:hover img 
+{
+    transform:scale(1.1)
+}
+.card-text 
+{
+    font-size: 14px;
+}
+.plus-icon
+{
+    border: 3px solid #007aff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.itemmm img 
+{
+    width: 150px !important;
+    height: 100px;
+}
+.col-md-4
+{
+    padding-bottom: 20px;
+}
+.carousel-indicators [data-bs-target]
+{
+width: 10px;
+height: 10px;
+border-radius: 50%;
+}
+.carousel 
+{
+    background-image: url(../images/tree.webp);
+    background-size: cover ;
+    background-position: center center;
+    color: white;
+    height: 100vh;
+   
+}
+.layer3
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color:rgba(0, 127, 253, 0.8);
+}
+.btn-m
+{
+    position: relative;
+    left: 50%;
+    width: 70px;
+    transform: translateX(-35px);
+    top: -10px;
+    background-color: #007aff;
+    color: white;
+    border: none;
+    font-size: 12px;
+}
+.btn-w
+{
+    position: relative;
+    left: 50%;
+    width: 100px;
+    transform: translateX(-50px);
+    top: -10px;
+    background-color: #007aff;
+    color: white;
+    border: none;
+    font-size: 12px;
+}
+.card-body h5:hover
+{
+color: #007aff;
+}
+.img-time
+{
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.time 
+{
+    border-top: 1px solid gray;
+    color: gray;
+}
+.img-time span
+{
+    font-size: 14px;
+    color: black;
+
+}
+.img-time span:hover
+{
+    color: #007aff;
+}
+.form
+{
+    background-image: url(../images/tree.webp);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.layer4
+{
+    background-color:rgba(0, 127, 253, 0.9);
+    width: 100%;
+    height: 100vh;
+}
+textarea
+{
+    border: 1px solid #007aff;
+} 
+.btn-form
+{
+width: 180px;
+height: 50px;
+border-radius: 30px;
+}
+::placeholder {
+   
+    font-size: 14px;
+  }
+  .layer4 h3::after
+  {
+      content: "";
+      width: 100px;
+      height: 3px;
+      background-color: #007aff;
+      position: absolute;
+      top: 40px;
+      left: 8px;
+  }
+  .icon-get
+  {
+      font-size: 14px;
+  }
+  .icon-get i 
+  {
+      color: #007aff;
+  }
+  .icon2-get
+  {
+      width: 50px;
+      height: 50px;
+      border: 3px solid #007aff;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+    .icon-get i
+    {
+        margin-right: 5px;
+    }
+    .copy-right span 
+    {
+        display: block;
+        color: white;
+        font-size: 14px;
+        
+    }
+    .icon2-get:hover
+    {
+        background-color: #007aff;
+        color: white;
+    }
